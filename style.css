@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.whiteBox{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    
+}
+.imageBox{
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.uCLSDthPTKXTa2aeWS74mwHaKi&pid=Api&P=0&w=300&h=300);
+    
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-size: cover;
+    text-align: center;
+}
+.hold{
+    border:3px solid yellow;
+}
+.hide{
+    display: none;
+}
+.dashed{
+    border: 2px dashed grey;
+}
+body{
+   background-color: #212121;
+}
